@@ -290,12 +290,8 @@ export default function Header() {
 
           <div className="flex justify-center lg:flex-1">
             <a href="#">
-              <span className="sr-only">Workflow</span>
-              <img
-                className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                alt=""
-              />
+              <span className="sr-only">Meature</span>
+              <img className="h-8 w-auto sm:h-10" src="Logo.svg" alt="" />
             </a>
           </div>
 
