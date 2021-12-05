@@ -14,7 +14,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false, //TODO: temp deactivaite - reactive when project was cleanupped
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
