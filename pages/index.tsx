@@ -1,4 +1,4 @@
-import ContentLeft from "@components/ContentLeft";
+import WhySection from "@components/WhySection";
 import Feature from "@components/Feature";
 import Footer from "@components/Footer";
 import Header from "@components/Header";
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <main>
         <Hero />
         <Feature />
-        <ContentLeft />
+        <WhySection />
       </main>
 
       <Footer />
