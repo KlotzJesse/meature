@@ -6,7 +6,7 @@ module.exports = {
   media: false,
   theme: {
     backgroundImage: {
-      'hero-pattern': "url('https://picsum.photos/500')"
+      "hero-pattern": "url('https://picsum.photos/500')",
     },
     extend: {
       colors: {
@@ -327,5 +327,5 @@ module.exports = {
     opacity: ["responsive", "hover", "focus", "group-hover"],
     backgroundColor: ["responsive", "hover", "focus", "group-hover"],
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
