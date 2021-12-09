@@ -36,7 +36,7 @@ const secondNav = [
   },
   {
     name: "Insect",
-    href: "/Insect",
+    href: "/insect",
   },
 ];
 
