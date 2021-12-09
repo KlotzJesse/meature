@@ -5,6 +5,9 @@ module.exports = {
   ],
   media: false,
   theme: {
+    backgroundImage: {
+      'hero-pattern': "url('https://picsum.photos/500')"
+    },
     extend: {
       colors: {
         red: {
