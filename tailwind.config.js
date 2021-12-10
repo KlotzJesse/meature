@@ -8,6 +8,14 @@ module.exports = {
     backgroundImage: {
       "hero-pattern": "url('https://picsum.photos/500')",
     },
+    colors: {
+      meatureWhite: "#F7F3F0",
+      primary: "#B0E1B8",
+      secondary: "#F2B872",
+      tertiary: "#EC8784",
+      secondaryText: "#2C3947",
+      primaryText: "#1E2C3B",
+    },
     extend: {
       colors: {
         red: {
