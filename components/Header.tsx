@@ -12,7 +12,7 @@ const mainNav = [
     icon: SupportIcon,
   },
   {
-    name: "Statistics",
+    name: "Why?",
     href: "/statistics",
 
     icon: SupportIcon,
@@ -27,15 +27,15 @@ const mainNav = [
 
 const secondNav = [
   {
-    name: "Lab",
+    name: "Lab grown Meat",
     href: "/lab",
   },
   {
-    name: "Industry",
+    name: "Meat Industry",
     href: "/industry",
   },
   {
-    name: "Insect",
+    name: "Meat Substitute",
     href: "/insect",
   },
 ];
@@ -48,8 +48,8 @@ export default function Header() {
   const logo = (
     <Image
       layout="responsive"
-      height="32"
-      width="32"
+      height="64"
+      width="64"
       src="/logo.svg"
       alt="Meature Logo"
     />

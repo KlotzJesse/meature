@@ -2,7 +2,7 @@ export const Contact = () => {
   return (
     <section className="relative px-4 pt-16 mx-auto text-gray-600 body-font sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="container flex flex-wrap px-5 py-24 mx-auto sm:flex-nowrap">
-        <div className="relative flex items-end justify-start p-10 overflow-hidden bg-gray-300 rounded-lg lg:w-2/3 md:w-1/2 sm:mr-10">
+        {/*<div className="relative flex items-end justify-start p-10 overflow-hidden bg-gray-300 rounded-lg lg:w-2/3 md:w-1/2 sm:mr-10">
           <iframe
             width="100%"
             height="100%"
@@ -38,7 +38,7 @@ export const Contact = () => {
               <p className="leading-relaxed">123-456-7890</p>
             </div>
           </div>
-        </div>
+  </div>*/}
         <div className="flex flex-col w-full mt-8 bg-white lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0">
           <h2 className="mb-1 text-lg font-medium text-gray-900 title-font">
             Contact
