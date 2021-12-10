@@ -31,8 +31,8 @@ const secondNav = [
     href: "/lab",
   },
   {
-    name: "Soy",
-    href: "/soy",
+    name: "Industry",
+    href: "/industry",
   },
   {
     name: "Insect",
