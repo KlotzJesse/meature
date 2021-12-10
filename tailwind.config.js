@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       "hero-pattern": "url('https://picsum.photos/500')",
+      "why-pattern": "url('/why.vsg)",
     },
     colors: {
       meatureWhite: "#F7F3F0",
