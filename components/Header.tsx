@@ -62,16 +62,16 @@ export default function Header() {
           {mainNav.map((navElement) => {
             return (
               <Link key={navElement.name} href={navElement.href} passHref>
-                <span className="hidden text-base font-medium text-gray-500 pointer md:block hover:text-gray-900">
+                <span className="hidden text-base font-medium text-gray-500 cursor-pointer md:block hover:text-gray-900">
                   {navElement.name}
                 </span>
               </Link>
             );
           })}
 
-          <div className="flex justify-center pr-28 lg:flex-1">
+          <div className="flex justify-center lg:flex-1">
             <Link href="/" passHref>
-              <div className="w-8 h-8 pointer">
+              <div className="w-8 h-8 cursor-pointer">
                 <span className="sr-only">Meature</span>
                 {logo}
               </div>
@@ -87,7 +87,7 @@ export default function Header() {
           {secondNav.map((navElement) => {
             return (
               <Link key={navElement.name} href={navElement.href} passHref>
-                <span className="hidden text-base font-medium text-gray-500 pointer md:block hover:text-gray-900">
+                <span className="hidden text-base font-medium text-gray-500 cursor-pointer md:block hover:text-gray-900">
                   {navElement.name}
                 </span>
               </Link>
