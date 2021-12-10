@@ -1,3 +1,4 @@
+import { ArticleHero } from "@components/ArticleHero";
 import Header from "@components/Header";
 import { Footer } from "../components/Footer";
 
@@ -9,94 +10,61 @@ export const lab = (props: labProps) => {
       <Header />
       <main>
         <article
-          className="px-4 py-24 mx-auto max-w-7xl"
-          itemID="#"
+          className="px-4 mx-auto py-11 max-w-7xl"
           itemScope
           itemType="http://schema.org/BlogPosting"
         >
-          <div className="w-full mx-auto mb-12 text-left md:w-3/4 lg:w-1/2">
-            <img
-              src="https://kutty.netlify.app/brand/og.png"
-              className="object-cover w-full h-64 bg-center rounded-lg"
-              alt="Kutty"
-            />
-            <p className="mt-6 mb-2 text-xs font-semibold tracking-wider uppercase text-primary">
-              Development
-            </p>
-            <h1
-              className="mb-3 text-3xl font-bold leading-tight text-gray-900 md:text-4xl"
-              itemProp="headline"
-              title="Rise of Tailwind - A Utility First CSS Framework"
-            >
-              Rise of Tailwind - A Utility First CSS Framework
-            </h1>
-            <div className="flex mb-6 space-x-2">
-              <a
-                className="px-5 py-1 text-sm text-gray-900 bg-gray-100 rounded-full hover:bg-gray-200"
-                href="#"
-              >
-                CSS
-              </a>
-              <a
-                className="px-5 py-1 text-sm text-gray-900 bg-gray-100 rounded-full hover:bg-gray-200"
-                href="#"
-              >
-                Tailwind
-              </a>
-              <a
-                className="px-5 py-1 text-sm text-gray-900 bg-gray-100 rounded-full hover:bg-gray-200"
-                href="#"
-              >
-                AlpineJS
-              </a>
-            </div>
-            <a className="flex items-center text-gray-700" href="#">
-              <div>
-                <img
-                  src="https://kutty.netlify.app/placeholder.jpg"
-                  alt="Photo of Praveen Juge"
-                  className="object-cover w-8 h-8 rounded-full"
-                />
-              </div>
-              <div className="ml-2">
-                <p className="text-sm font-semibold text-gray-800">
-                  Praveen Juge
-                </p>
-                <p className="text-sm text-gray-500">Jan 02 2021</p>
-              </div>
-            </a>
-          </div>
+          <ArticleHero
+            title="When meat doesn’t require killing a single animal."
+            category="Lab"
+            image="https://brightly.eco/wp-content/uploads/2021/08/lab-grown-meat-sustainability.jpg"
+            author="Fabian Mergner"
+          />
           <div className="w-full mx-auto prose md:w-3/4 lg:w-1/2">
             <p>
-              What if there is an easy way to achieve responsive UI without
-              using any UI kit? Can we create new and fresh designs for every
-              project with a CSS framework? Enter Tailwind CSS, will this be the
-              perfect CSS framework, well let’s find out.
+              Cultured meat is meat produced by in vitro cell cultures of animal
+              cells. Cultured meat is produced by using engineering techniques,
+              which are traditionally applied in regenerative medicines.
             </p>
             <p>
-              Tailwind is a utility-first CSS framework, the keyword being
-              ‘utility’. It is basically a set of classes that you can use in
-              your HTML.
+              As a first step, in December 2020 Singapore approved the trade of
+              chicken grown in bioreactors. The US company Eat Just produces
+              them and the chicken passed a safety review by the Singapore Food
+              Agency. The meat is grown in a big bioreactor and then combined
+              with plant-based ingredients.
             </p>
-            <pre>
-              .bg-purple-700 {"{"}
-              {"\n"}
-              {"  "}background-color: #6b46c1;{"\n"}
-              {"}"}
-              {"\n"}
-              {"\n"}.px-4 {"{"}
-              {"\n"}
-              {"  "}padding-top: 1rem;{"\n"}
-              {"  "}padding-bottom: 1rem;{"\n"}
-              {"}"}
-            </pre>
             <p>
-              Therefore, we don’t have to write any custom CSS to get this
-              button. This can be heavily extended to build whole web
-              applications without the need for any other styles apart from a
-              tailwind.
+              Josh Tetrick, of Eat Just, said: “I think the approval is one of
+              the most significant milestones in the food industry in the last
+              handful of decades. It’s an open door and it’s up to us and other
+              companies to take that opportunity. My hope is this leads to a
+              world in the next handful of years where the majority of meat
+              doesn’t require killing a single animal or tearing down a single
+              tree.”
+              (https://www.theguardian.com/environment/2020/dec/02/no-kill-lab-grown-meat-to-go-on-sale-for-first-time,
+              23.11.2021 14:45)
             </p>
-            <p>...</p>
+            <p>
+              Lab-grown meat is a scientific development which is exciting for
+              many because of its environmental impact. The ecosystem does not
+              get infected due the slaughter of animals. There will be no harm
+              to the environment as all of the animals live their normal life
+              and do not get harmed. To produce a normal 230g Steak you will
+              need 1.6kg of Food for an animal, about 60 charges of a laptop and
+              3.515 litres of water. For the cultured meat you need 10 times
+              less land, more than 10 times less water and less than half of the
+              Energy.
+              (https://stories.pinduoduo-global.com/agritech-hub/how-is-cultured-meat-made,
+              23.11.2021 14:45){" "}
+            </p>
+            <p>
+              The most important point about Cultured meat is, that there are no
+              undesirable side effects, and it will reduce the risk of a
+              disease: As the chicken do not get antibiotics there will be no
+              risk of food-borne illnesses such as E. coli and salmonella. With
+              cultured meat you will cut out the risks associated with these
+              microorganisms and antibiotics.{" "}
+            </p>
           </div>
         </article>
       </main>
