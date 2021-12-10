@@ -9,7 +9,7 @@ type Card = {
 
 export const Card = ({ title, paragraph, image, href }: Card) => {
   return (
-    <div className="relative max-w-sm m-auto mt-24 w-80 lg:mt-16">
+    <div className="relative max-w-sm m-auto mt-52 first:mt-0 first:lg:mt-16 w-80 lg:mt-16">
       <div className="absolute w-full -translate-x-1/2 top-20 left-1/2">
         <img src={image} alt="" className="absolute bottom-0 w-full" />
       </div>
