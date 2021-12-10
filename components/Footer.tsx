@@ -8,7 +8,9 @@ interface FooterProps {
 export const Footer = (props: FooterProps) => {
   return (
     <div
-      className={`text-black  ${props.index ? "pt-10 bg-primary" : "mt-10"}`}
+      className={`text-primaryText  ${
+        props.index ? "pt-10 bg-primary" : "mt-10"
+      }`}
     >
       <img
         alt=""

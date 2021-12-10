@@ -20,7 +20,7 @@ export const Card = ({ title, paragraph, image, href }: Card) => {
         <div className="w-5/6 m-auto">
           <p className="pt-5 text-center text-primaryText">{paragraph}</p>
         </div>
-        <div className="p-2 m-auto mt-6 text-center shadow-md bg-primary w-72 lg:w-5/6 hover:bg-secondary rounded-2xl text-primaryText shadow-bg-blue-700">
+        <div className="p-2 m-auto mt-6 text-center transition-all duration-300 ease-in-out shadow-md bg-primary w-72 lg:w-5/6 hover:bg-secondary rounded-2xl text-primaryText shadow-bg-blue-700">
           <a href={href} className="text-lg font-bold lg:text-sm">
             Learn more
           </a>

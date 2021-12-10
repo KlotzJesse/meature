@@ -31,11 +31,11 @@ const secondNav = [
     href: "/lab",
   },
   {
-    name: "Meat Industry",
+    name: "Soy",
     href: "/industry",
   },
   {
-    name: "Meat Substitute",
+    name: "Insects",
     href: "/insect",
   },
 ];
@@ -59,17 +59,19 @@ export default function Header() {
     <Popover className="relative bg-white">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
         <div className="flex items-center justify-between py-6 border-b-2 border-gray-100 md:justify-start md:space-x-10">
-          {mainNav.map((navElement) => {
-            return (
-              <Link key={navElement.name} href={navElement.href} passHref>
-                <span className="hidden text-base font-medium text-gray-500 cursor-pointer md:block hover:text-gray-900">
-                  {navElement.name}
-                </span>
-              </Link>
-            );
-          })}
+          <div className="flex justify-between w-1/3 md:space-x-10">
+            {mainNav.map((navElement) => {
+              return (
+                <Link key={navElement.name} href={navElement.href} passHref>
+                  <span className="hidden text-base font-medium text-gray-500 cursor-pointer md:block hover:text-gray-900">
+                    {navElement.name}
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
 
-          <div className="flex justify-center lg:flex-1">
+          <div className="flex justify-center w-1/3">
             <Link href="/" passHref>
               <div className="w-8 h-8 cursor-pointer">
                 <span className="sr-only">Meature</span>
@@ -84,15 +86,17 @@ export default function Header() {
             </Popover.Button>
           </div>
 
-          {secondNav.map((navElement) => {
-            return (
-              <Link key={navElement.name} href={navElement.href} passHref>
-                <span className="hidden text-base font-medium text-gray-500 cursor-pointer md:block hover:text-gray-900">
-                  {navElement.name}
-                </span>
-              </Link>
-            );
-          })}
+          <div className="flex justify-between w-1/3 md:space-x-10">
+            {secondNav.map((navElement) => {
+              return (
+                <Link key={navElement.name} href={navElement.href} passHref>
+                  <span className="hidden text-base font-medium text-gray-500 cursor-pointer md:block hover:text-gray-900">
+                    {navElement.name}
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
         </div>
       </div>
 

@@ -15,8 +15,8 @@ export const ContentLeft = () => {
           </p>
           <div className="mb-0 text-center md:mb-16 lg:mb-20">
             <a
-              href="/"
-              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-secondary hover:bg-primary focus:shadow-outline focus:outline-none"
+              href="/why"
+              className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-300 ease-in-out rounded shadow-md md:w-auto bg-secondary hover:bg-secondary/70 focus:shadow-outline focus:outline-none"
             >
               Learn more
             </a>

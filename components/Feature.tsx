@@ -6,19 +6,19 @@ export const Feature = () => {
         title="Lab"
         paragraph="You can now listen to millions of songs, audiobooks ands podcasts on any device anywhere you like!"
         image="/lab.svg"
-        href="#"
+        href="/lab"
       />
       <Card
         title="Soy"
         paragraph="You can now listen to millions of songs, audiobooks ands podcasts on any device anywhere you like!"
         image="/soy.svg"
-        href="#"
+        href="/industry"
       />
       <Card
         title="Insects"
         paragraph="You can now listen to millions of songs, audiobooks ands podcasts on any device anywhere you like!"
         image="/insects.svg"
-        href="#"
+        href="/insects"
       />
     </div>
   );
