@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <WhySection />
       </main>
 
-      <Footer />
+      <Footer index />
     </div>
   );
 };
