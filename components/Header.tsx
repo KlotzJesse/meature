@@ -50,7 +50,7 @@ export default function Header() {
       layout="responsive"
       height="32"
       width="32"
-      src="/Logo.svg"
+      src="/logo.svg"
       alt="Meature Logo"
     />
   );
