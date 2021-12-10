@@ -40,12 +40,12 @@ export const insect = (props: insectProps) => {
               little space and resources to cultivate in large quanitities. In
               the west, insects as a meat substitute face difficulties
               especially linked to most people no liking the idea of eating
-              dirty insects and thinking of them just as "critters". To increase
-              consumer interest in the west, insects are often processed into
-              e.g. flour, chips and flavoured snacks. Potential challenges with
-              using insects as food are for of course the sigmata around them
-              but also the potential spread of viruses and diseases, even in
-              processed form.
+              dirty insects and thinking of them just as &quot;critters&quot;.
+              To increase consumer interest in the west, insects are often
+              processed into e.g. flour, chips and flavoured snacks. Potential
+              challenges with using insects as food are for of course the
+              sigmata around them but also the potential spread of viruses and
+              diseases, even in processed form.
             </p>
             <h2>Herbal products as meat substitute</h2>
             <p>
@@ -69,14 +69,14 @@ export const insect = (props: insectProps) => {
               regarded as a vegetable side dish but replace meat at the center
               piece of a recipe. As with Insects, vegetables and fruits often
               require way less space and energy as cattle to grow in large
-              numbers. They also don't produce any methane gas and clean our air
-              of carbon monoxide. Potential challengesthat come with using
-              vegetables and fruits on a large scale to replace meat are for one
-              the required space and especially the high water usage. This, as
-              well as factors such as farming season limit the large-scale
-              cultivation of plants in poorer regions and places located in the
-              desert. The use of high tech farming and irrigation technology
-              would be a way to solve these problems.
+              numbers. They also don&apos;t produce any methane gas and clean
+              our air of carbon monoxide. Potential challengesthat come with
+              using vegetables and fruits on a large scale to replace meat are
+              for one the required space and especially the high water usage.
+              This, as well as factors such as farming season limit the
+              large-scale cultivation of plants in poorer regions and places
+              located in the desert. The use of high tech farming and irrigation
+              technology would be a way to solve these problems.
             </p>
           </div>
         </article>
