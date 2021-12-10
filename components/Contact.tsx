@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <section className="relative text-gray-600 body-font">
+    <section className="relative px-4 pt-16 mx-auto text-gray-600 body-font sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="container flex flex-wrap px-5 py-24 mx-auto sm:flex-nowrap">
         <div className="relative flex items-end justify-start p-10 overflow-hidden bg-gray-300 rounded-lg lg:w-2/3 md:w-1/2 sm:mr-10">
           <iframe
