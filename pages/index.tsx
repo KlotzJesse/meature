@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Meature</title>
-        <meta name="description" content="Beat your Meat" />
+        <meta name="description" content="The future of Meat" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
