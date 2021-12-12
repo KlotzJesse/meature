@@ -2,9 +2,9 @@ import ArticleHero from "@components/ArticleHero";
 import Footer from "@components/Footer";
 import Header from "@components/Header";
 
-interface industryProps {}
+interface soyProps {}
 
-export const Industry = (props: industryProps) => {
+export const Soy = (props: soyProps) => {
   return (
     <div>
       <Header />
@@ -16,7 +16,7 @@ export const Industry = (props: industryProps) => {
         >
           <ArticleHero
             title="Herbal products as meat substitute"
-            category="Meat Substitute"
+            category="Soy"
             image="http://modernfarmer.com/wp-content/uploads/2013/07/cattle-feed-lot-hero.jpg"
             author="Bela Bondar"
           />
@@ -59,4 +59,4 @@ export const Industry = (props: industryProps) => {
   );
 };
 
-export default Industry;
+export default Soy;

@@ -2,9 +2,9 @@ import ArticleHero from "@components/ArticleHero";
 import Footer from "@components/Footer";
 import Header from "@components/Header";
 
-interface insectProps {}
+interface MeatSubstitutesProps {}
 
-export const insect = (props: insectProps) => {
+export const MeatSubstitutes = (props: MeatSubstitutesProps) => {
   return (
     <div>
       <Header />
@@ -55,4 +55,4 @@ export const insect = (props: insectProps) => {
   );
 };
 
-export default insect;
+export default MeatSubstitutes;
