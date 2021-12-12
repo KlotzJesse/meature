@@ -111,7 +111,7 @@ export default function Header() {
       >
         <Popover.Panel
           focus
-          className="absolute inset-x-0 top-0 z-50 p-2 transition origin-top-right transform md:hidden"
+          className="absolute inset-x-0 top-0 z-50 p-2 transition origin-top-right transform md:hidden bg-meatureWhite"
         >
           <div className="bg-white divide-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-gray-50">
             <div className="px-5 pt-5 pb-6">
@@ -132,10 +132,10 @@ export default function Header() {
                       href={item.href}
                       className="flex items-center p-3 -m-3 rounded-md hover:bg-gray-50"
                     >
-                      <item.icon
+                      {/* <item.icon
                         className="flex-shrink-0 w-6 h-6 text-indigo-600"
                         aria-hidden="true"
-                      />
+                      /> */}
                       <span className="ml-3 text-base font-medium text-gray-900">
                         {item.name}
                       </span>
