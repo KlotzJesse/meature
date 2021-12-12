@@ -9,16 +9,16 @@ export const Feature = () => {
         href="/lab"
       />
       <Card
-        title="Meat Substitutes"
+        title="Soy based Meat"
         paragraph="Products: Herbal meat substitutes are as popular as ever and come in many variations "
         image="/soy.svg"
-        href="/industry"
+        href="/soy"
       />
       <Card
-        title="Insects"
+        title="Meat substitutes"
         paragraph="Insects as food are more popular than you think, especially because of their benefits to health and nutrition "
         image="/insects.svg"
-        href="/insects"
+        href="/meat-substitutes"
       />
     </div>
   );

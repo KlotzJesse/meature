@@ -13,7 +13,7 @@ const mainNav = [
   },
   {
     name: "Why?",
-    href: "/statistics",
+    href: "/why",
 
     icon: SupportIcon,
   },
