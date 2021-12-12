@@ -56,7 +56,7 @@ export default function Header() {
   );
 
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative bg-meatureWhite">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
         <div className="flex items-center justify-between py-6 border-b-2 border-gray-100 md:justify-start md:space-x-10">
           <div className="flex justify-between w-1/3 md:space-x-10">
@@ -73,7 +73,7 @@ export default function Header() {
 
           <div className="flex justify-center w-1/3">
             <Link href="/" passHref>
-              <div className="w-8 h-8 cursor-pointer">
+              <div className="w-16 h-16 cursor-pointer">
                 <span className="sr-only">Meature</span>
                 {logo}
               </div>
