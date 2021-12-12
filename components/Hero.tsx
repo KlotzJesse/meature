@@ -1,8 +1,8 @@
 export const Hero = () => {
   return (
     <div className="relative flex flex-col-reverse px-4 py-16 pt-16 mx-auto mb-56 lg:pt-0 lg:flex-col lg:pb-0 mt-14 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 z-1 ">
-      <div className="w-full -z-0">
-        <img src="/hero.svg" alt="" className="w-full" />
+      <div className="flex items-center justify-center w-full -z-0">
+        <img src="/hero.svg" alt="" className="w-full pt-10 md:w-1/2" />
       </div>
       {/* <img
         src="/sign.png"
