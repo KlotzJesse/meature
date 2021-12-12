@@ -3,7 +3,7 @@ import React from "react";
 interface StatisticProps {
   title: string;
   description: string;
-  graphic: string;
+  graphic: any;
   right?: boolean;
 }
 
@@ -25,11 +25,12 @@ export const Statistic = (props: StatisticProps) => {
         </div>
       </div>
       <div className="w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full xl:px-0">
-        <img
+        {/* <img
           className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
           src={props.graphic}
           alt=""
-        />
+        /> */}
+        {props.graphic}
       </div>
     </div>
   );

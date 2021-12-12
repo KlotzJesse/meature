@@ -15,62 +15,41 @@ export const Industry = (props: industryProps) => {
           itemType="http://schema.org/BlogPosting"
         >
           <ArticleHero
-            title="Meat Industry in numbers"
-            category="Industry"
+            title="Herbal products as meat substitute"
+            category="Meat Substitute"
             image="http://modernfarmer.com/wp-content/uploads/2013/07/cattle-feed-lot-hero.jpg"
             author="Bela Bondar"
           />
           <div className="w-full mx-auto prose md:w-3/4 lg:w-1/2">
             <p>
-              The meat industry has drastically changed in the past decades.
-              Since 1961 the meat production has almost quadrupled globally
-              whereas the global population has roughly doubled since then. This
-              massive increase in production demand led to many choices that
-              allowed for more productivity at the cost of many other important
-              things. We are not here to call the meat industry “inhumane” or
-              “evil”, but we want to discover the impact it has on today’s
-              environment and eco systems.
-            </p>
-            <p>
-              A pressing issue we will face in the feature and which some
-              regions of the world already struggle with today is fresh water
-              supply. Depending on where someone lives fresh water is either
-              something that comes rather cheat out of your sink, or it is a
-              luxury your live depends on. In contrast the meat industry is
-              responsible for roughly 20-33 percent of all fresher consumption
-              worldwide. A big factor in this consumption is the water cost of
-              cows. Almost 22.000 litres of water are needed to produce 1kg of
-              beef. Furthermore, the area that is needed to produce 125kg of
-              beef would instead yield an astonishing 25.000 kg of potatoes or
-              tomatoes, a rather crass contrast, isn’t it?
-            </p>
-            <p>
-              When talking about sustainability and climate change, we don’t get
-              around talking about the impact of animal agriculture. It alone is
-              responsible for around 18% of global climate change, more than all
-              forms of transportation combined. Cows produce almost 700 billion
-              litres of methane every day, which is 25-100 times more
-              destructive than C02. Additionally, around 91% of the destruction
-              of the amazon rain forest happens so humanity can produce more
-              meat. Around 1 to 2 acres of rainforest are cleared every single
-              second to make space for livestock and produce more meat.
-            </p>
-            <h2>What can you do? </h2>
-            <p>
-              Usually, the supply is somewhat determined by the demand but
-              somehow it seems like the meat industry is an exception to that
-              rule. Theres just more and more meat being produced animals filled
-              with antidepressants and antibiotics to the rim, never see the sun
-              and are genetically modified so that some of them can’t even walk
-              anymore. It is not necessary to completely do without meat, after
-              all it is delicious. But there are alternatives to the cheap meat
-              you can find at any supermarket. Locally produced meat from
-              organic productions locally which don’t deforest the amazon
-              rainforest, which don’t pump their animals full of antidepressants
-              and which animals also get to see the sun sometimes. Sure, this is
-              more expensive but if you think about what has happened to make
-              500g of beef, fly it to you from oversees and sell it for less
-              than 5 Euro, it sure seems questionable.{" "}
+              Herbal products are the most common meat substitute, especially
+              because they are also accepted in completely meat free lifestyles
+              such as veganism. These meat alternatives come in many forms, such
+              as the famous Tofu and Tempeh, various bean products and more
+              exoic variations such as algae and special mushrooms. The main
+              goal of these ingredients is to replace meat everywhere, even in
+              traditionally meat-based recipes. Therefore, they often have a
+              meat like consitency and mimic meat in their form. Especially tofu
+              is widely used because of its neutral flavour. Using spices, tofu
+              based products can almost taste the same as meat. Of course there
+              is not just tofu and other soy bean based foods. Different
+              cultures all over the world adopted a wide variety of vegetables
+              and fruits as important parts of their diet and even to substitute
+              meat. These include regular beans, used in the middle east as
+              falafel, eggplant based dishes, Jackfruit, Nut roasts and even
+              special mushrooms that posess the taste of beef or chicken. What
+              makes these ingredients special is that they are often not
+              regarded as a vegetable side dish but replace meat at the center
+              piece of a recipe. As with Insects, vegetables and fruits often
+              require way less space and energy as cattle to grow in large
+              numbers. They also don&apos;t produce any methane gas and clean
+              our air of carbon monoxide. Potential challengesthat come with
+              using vegetables and fruits on a large scale to replace meat are
+              for one the required space and especially the high water usage.
+              This, as well as factors such as farming season limit the
+              large-scale cultivation of plants in poorer regions and places
+              located in the desert. The use of high tech farming and irrigation
+              technology would be a way to solve these problems.
             </p>
           </div>
         </article>

@@ -1,7 +1,10 @@
 import Footer from "@components/Footer";
 import Header from "@components/Header";
+import MeatEmissionsStat from "@components/MeatEmissionsStat";
+import MeatSubstituteEnvStat from "@components/MeatSubstituteEnvStat";
 import Statistic from "@components/Statistic";
-import React from "react";
+import SurveyMeatSubstitutes from "@components/SurveyMeatSubstitutes";
+import { WaterConsumptionStat } from "@components/WaterConsumptionStat";
 
 interface statisticsProps {}
 
@@ -15,15 +18,30 @@ export const statistics = (props: statisticsProps) => {
           description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
           quae. explicabo."
-          graphic="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+          graphic={<WaterConsumptionStat />}
         />
         <Statistic
           title="The quick, brown fox jumps over a lazy dog"
           description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
           quae. explicabo."
-          graphic="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+          graphic={<MeatEmissionsStat />}
           right
+        />
+        <Statistic
+          title="The quick, brown fox jumps over a lazy dog"
+          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae. explicabo."
+          graphic={<SurveyMeatSubstitutes />}
+          right
+        />
+        <Statistic
+          title="The quick, brown fox jumps over a lazy dog"
+          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae. explicabo."
+          graphic={<MeatSubstituteEnvStat />}
         />
       </main>
       <Footer />
