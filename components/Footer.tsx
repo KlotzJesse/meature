@@ -42,12 +42,11 @@ export const Footer = (props: FooterProps) => {
               </a>
               <div className="mt-6 lg:max-w-sm">
                 <p className="text-sm ">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam.
-                </p>
-                <p className="mt-4 text-sm ">
-                  Eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae vitae dicta sunt explicabo.
+                  Meature.tk exists to inform about the alternatives to today's
+                  factory farming of meat. It explores existing and established
+                  substitutes like herbal products and explores upcoming
+                  developments like lab grown meat and the adoption of insects
+                  as a food source.
                 </p>
               </div>
             </div>
