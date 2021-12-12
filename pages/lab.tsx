@@ -1,5 +1,6 @@
 import { ArticleHero } from "@components/ArticleHero";
 import Header from "@components/Header";
+import Head from "next/head";
 import { Footer } from "../components/Footer";
 
 interface labProps {}
@@ -7,6 +8,10 @@ interface labProps {}
 export const lab = (props: labProps) => {
   return (
     <div>
+      <Head>
+        <title>Lab grown Meat - Meature</title>
+        <meta name="description" content="The feature of meat" />
+      </Head>
       <Header />
       <main>
         <article

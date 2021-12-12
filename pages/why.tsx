@@ -5,12 +5,17 @@ import MeatSubstituteEnvStat from "@components/MeatSubstituteEnvStat";
 import Statistic from "@components/Statistic";
 import SurveyMeatSubstitutes from "@components/SurveyMeatSubstitutes";
 import { WaterConsumptionStat } from "@components/WaterConsumptionStat";
+import Head from "next/head";
 
 interface statisticsProps {}
 
 export const statistics = (props: statisticsProps) => {
   return (
     <div>
+      <Head>
+        <title>Why?- Meature</title>
+        <meta name="description" content="The feature of meat" />
+      </Head>
       <Header />
       <main>
         <Statistic

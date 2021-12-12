@@ -1,12 +1,17 @@
 import ArticleHero from "@components/ArticleHero";
 import Footer from "@components/Footer";
 import Header from "@components/Header";
+import Head from "next/head";
 
 interface MeatSubstitutesProps {}
 
 export const MeatSubstitutes = (props: MeatSubstitutesProps) => {
   return (
     <div>
+      <Head>
+        <title>Meat Substitutes - Meature</title>
+        <meta name="description" content="The feature of meat" />
+      </Head>
       <Header />
       <main>
         <article
