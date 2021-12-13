@@ -74,8 +74,8 @@ export const Footer = (props: FooterProps) => {
                 </a>
               </div>
               <p className="mt-4 text-sm ">
-                Find us on Social Media and fight for your future
-                #thefutureofmeat!
+                Find us on social media and share your passion for better meat!
+                #meatchanges
               </p>
             </div>
           </div>

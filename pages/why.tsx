@@ -19,33 +19,25 @@ export const statistics = (props: statisticsProps) => {
       <Header />
       <main>
         <Statistic
-          title="The quick, brown fox jumps over a lazy dog"
-          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          quae. explicabo."
+          title="Water consumption of meat types compared"
+          description="Of the three most consumed meats (The most consumed one is Chicken), beef requires by far the most water per kilo to produce. This makes finding better beef alternatives especially important. "
           graphic={<WaterConsumptionStat />}
         />
         <Statistic
-          title="The quick, brown fox jumps over a lazy dog"
-          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          quae. explicabo."
+          title="CO2 Emissionsfrom meats"
+          description="As with water, the meat that produces the most CO2 per kilogram is beef. This because the larger footprint of kettle and combines with their methane output. Nowadays, kettle plays a not insignificant part in global warming. "
           graphic={<MeatEmissionsStat />}
           right
         />
         <Statistic
-          title="The quick, brown fox jumps over a lazy dog"
-          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          quae. explicabo."
+          title="Consumer acceptance of better meat / alternatives"
+          description="Independant studies show: Cultures historically eating meat are still hesitent awhen it comes to meat alternatives. Only 5% for example appprove of lab meat as a viable alternative. It is to note however that roughly 25% of the population would atleast try novel alternatives like invitro meat and insects."
           graphic={<SurveyMeatSubstitutes />}
           right
         />
         <Statistic
-          title="The quick, brown fox jumps over a lazy dog"
-          description="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          quae. explicabo."
+          title="Environental impact of meat alternatives"
+          description="As you can see, every alternative to beef has a smaller environmental impact. Chicken and Soy based products are especially good, followed by pork."
           graphic={<MeatSubstituteEnvStat />}
         />
       </main>
